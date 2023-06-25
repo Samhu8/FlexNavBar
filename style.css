@@ -1,0 +1,35 @@
+.nav {
+    border-style: solid;
+    background-color: grey;
+    width: 1000px;
+    display: flex;
+}
+.nav-title {
+    width: 60%;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 15px;
+}
+.nav-links {
+    width: 40%;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.active {
+    font-weight: bold;
+}
+.btn {
+    border-style: solid;
+    padding: 5px;
+    margin-right: 10px;
+    color: whitesmoke;
+    box-shadow: 2px 4px black;
+    background-color: rgb(12, 189, 212);
+}
